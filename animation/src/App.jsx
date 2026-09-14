@@ -1,0 +1,38 @@
+import React from 'react'
+import { motion } from "motion/react"
+const App = () => {
+  return (
+    <div>
+      <motion.div
+     
+      // animate={{
+      //   x:[0,800,800,0,0],
+      //   y:[0,0,400,400,0],
+      //   rotate:360,
+      //   opacity:0.5
+      // }}
+      // transition={{
+      //   duration:4,
+      //   delay:1,
+      //   ease:"anticipate"
+      // }}
+      // drag
+      // whileDrag={{
+      //   scale:0.8
+      // }}
+      // dragConstraints={{
+      //   top:0,
+      //   left:0,
+      //   right:300,
+      //   bottom:300
+      // }}
+      // dragDirectionLock='true'
+       className='p-20 text-center text-white font-mono'>
+        <h1 className='text-6xl font-bold text-center mb-10'>Sankha</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo pariatur, natus unde exercitationem minima nemo porro autem, dignissimos rerum vitae commodi odit accusantium obcaecati. Vel dolores maxime laborum ducimus sunt dolorem, sed, ipsum molestiae debitis officiis iure necessitatibus natus! Fugit ratione natus maiores et eveniet, ex unde corporis! Possimus corrupti aut veniam vel asperiores, enim, explicabo dignissimos rem libero totam eveniet soluta fuga! Velit, odio at inventore suscipit cupiditate iste in laboriosam eum. Fuga odio neque dolore veritatis illum. Nobis reiciendis quia porro voluptatibus deserunt. Similique quae ab quasi ullam ut nemo omnis corporis ipsam reprehenderit, officia, mollitia tempora, aperiam rerum. Repellat beatae a quis aspernatur consequuntur quae exercitationem perspiciatis, id, veritatis laboriosam ex et labore rem obcaecati, cum corrupti fuga? Voluptates animi blanditiis molestiae, dolor repellat, aut, quisquam rerum minus atque veritatis nulla mollitia. Maiores quaerat, animi ipsa eaque iste aspernatur est ab? Repellendus qui, distinctio fugit mollitia <br /><br /><br /><br /> id corporis autem fugiat sunt natus fuga vel voluptates possimus vitae animi error perferendis aut excepturi ullam soluta? Provident nobis voluptatum maiores veritatis voluptas officia blanditiis ad, numquam labore nostrum sint vitae quas cupiditate, officiis odio est praesentium explicabo pariatur laborum facere. Et, distinctio dicta numquam quod enim aliquid asperiores? Perferendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit eveniet consequuntur, harum consequatur provident a minus molestiae autem maxime cumque maiores similique. <br></br> Vel eos facilis reiciendis nulla natus voluptatibus repellendus aliquid perferendis modi accusamus illum nesciunt voluptates, magni saepe quas perspiciatis expedita consequatur veritatis sit laborum! Consectetur modi repudiandae, velit, natus omnis cum asperiores dolores nisi obcaecati atque perspiciatis nam maiores accusamus quidem incidunt odit autem, blanditiis veniam praesentium? Libero rerum, autem nihil, dolorem ut at necessitatibus porro sit enim provident commodi aspernatur minus! Perferendis in asperiores esse aut deleniti magni corrupti. Veritatis perferendis ducimus quos, consequatur in explicabo illum rerum reiciendis voluptatibus, officia voluptatum sapiente laudantium laboriosam nam rem repellendus! Quibusdam itaque amet veniam in incidunt, porro sequi sit quae accusantium voluptates earum, atque enim ullam ea vitae. Eum cumque et ut consequatur, numquam, veniam suscipit rerum totam blanditiis adipisci tenetur enim deleniti quisquam! Porro cupiditate officia est, blanditiis iusto, nulla consequatur illum temporibus libero facere doloribus fuga omnis perspiciatis veritatis voluptatem. Accusamus aut minima illo quia natus nobis alias architecto delectus earum commodi quas minus, beatae quos sunt dolores quaerat eum voluptatibus explicabo. Quisquam qui odit aspernatur eveniet libero nobis nihil voluptas ab, provident, cupiditate ad eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt unde facilis modi dicta exercitationem itaque distinctio, quidem, nobis eligendi ad voluptatibus officiis, tempore sed necessitatibus qui quis officia maiores neque dolores eveniet ipsum hic? Ad facilis quia distinctio. Est voluptates ea enim tempora provident vel officia. Reiciendis voluptatibus error nulla. Nobis similique nisi praesentium sit dolor velit exercitationem, et sunt delectus ea distinctio maiores. At dolorum praesentium ipsum, <br /><br /><br /> ea cumque hic quae, amet debitis culpa esse possimus illo, fugit aliquam aspernatur odit consequatur. Exercitationem dignissimos officia nesciunt nam, illo rem architecto vel voluptates nobis id perferendis doloribus quibusdam ex soluta deleniti molestiae qui optio cum vero! Odit perferendis quae esse porro hic amet architecto dolorum id quis sed maiores dicta, molestias at perspiciatis consectetur labore a nam alias impedit! Architecto suscipit laborum accusamus dolores dolore, reprehenderit eaque perspiciatis, consequatur ab modi voluptatum nobis ipsa ad at adipisci! Nobis quia eos fugit. Rerum similique tenetur blanditiis, quae corporis, facilis, sint inventore consequuntur nobis adipisci fuga deserunt! Dolores sit quas asperiores! Suscipit in accusamus, commodi obcaecati explicabo voluptatibus necessitatibus numquam accusantium neque corrupti ex voluptas culpa tempore amet nesciunt repellat consequuntur totam. Eaque explicabo unde atque porro neque fuga provident tempore sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, laudantium quisquam, expedita autem voluptatum earum reiciendis nisi doloremque placeat itaque iure, dolorum nam iste ullam laboriosam! Fugiat, voluptatibus est? Id consequuntur quaerat quam beatae et, reiciendis iusto animi aspernatur necessitatibus a quasi unde sed. Nemo maxime eum mollitia dignissimos. Incidunt, vel. Iure deleniti officiis perspiciatis accusantium, sit fugiat corporis dolores pariatur laboriosam nisi minima blanditiis sed magni! Consequuntur nobis fuga commodi error mollitia porro minus distinctio. Enim quidem laborum saepe distinctio ut fugiat unde. Libero at, tenetur reiciendis quas, odio dignissimos repellat facilis ab quaerat delectus maiores magnam, ullam molestiae. <br /><br /><br /><br /> Beatae ex autem facere optio, vitae, deleniti repudiandae iure perferendis soluta unde reprehenderit expedita eos magni dignissimos repellat laudantium non odio magnam velit veniam labore atque eveniet tempore consectetur! Nulla iure eos inventore, blanditiis accusantium nostrum repudiandae eius eaque consequuntur dolorem sequi ratione aliquam excepturi neque nihil aperiam harum ullam esse repellendus hic illum in! Velit, laudantium. Natus maiores vitae exercitationem doloremque recusandae dolorum fugiat aliquid repellendus nesciunt, assumenda ullam omnis! Culpa, ipsam iste? Quisquam eos nobis voluptatibus tenetur labore dignissimos molestias, possimus quasi facere nostrum cumque dolor fugiat quis molestiae pariatur eaque laudantium distinctio repellat accusantium totam quos cupiditate.</p>
+      </motion.div>
+    </div>
+  )
+}
+
+export default App
