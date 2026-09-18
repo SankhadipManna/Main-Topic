@@ -118,10 +118,16 @@
 // export default App
 import React from 'react'
 import Context from './comonents/increes/context.jsx'
+import AuthDasbord from './comonents/Dashbord.js'
+
+
+
+
 const App = () => {
   return (
     <div>
       <Context />
+     <AuthDasbord/>
     </div>
   )
 }

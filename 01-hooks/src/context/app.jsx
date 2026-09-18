@@ -1,6 +1,5 @@
-import { createContext, useState } from 'react';
-
-export const appContext = createContext(null);
+import { useState } from 'react';
+import { AppContext } from './appContext.jsx';
 
 const ContextProvider = (props) => {
   // const phone = '467585958';
@@ -30,9 +29,9 @@ const ContextProvider = (props) => {
   ]
 
   return (
-    <appContext.Provider value={{ count , setCount ,sankha}}>
+    <AppContext.Provider value={{ count , setCount ,sankha}}>
       {props.children}
-    </appContext.Provider>
+    </AppContext.Provider>
   );
 };
 

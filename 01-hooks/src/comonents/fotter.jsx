@@ -1,6 +1,6 @@
 import React ,{useContext} from 'react'
 import { appContext } from '../context/app.jsx'
-const fotter = () => {
+const Fotter = () => {
     const { phone, name } = useContext(appContext)
   return (
     <div>
@@ -11,4 +11,4 @@ const fotter = () => {
   )
 }
 
-export default fotter
+export default Fotter

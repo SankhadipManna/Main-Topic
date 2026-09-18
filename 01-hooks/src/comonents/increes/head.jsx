@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { appContext } from '../../context/app'
-const head = () => {
-    const {count} = useContext(appContext)
+import { AppContext } from '../../context/appContext.jsx'
+const Head = () => {
+  const {count} = useContext(AppContext)
     
   return (
     <div>
@@ -10,4 +10,4 @@ const head = () => {
   )
 }
 
-export default head
+export default Head

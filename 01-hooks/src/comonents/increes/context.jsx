@@ -1,9 +1,9 @@
 import React, { useContext } from 'react'
-import { appContext } from '../../context/app'
+import { AppContext } from '../../context/appContext.jsx'
 import Head from './head.jsx'
 
-const context = () => {
-  const contextapi = useContext(appContext)
+const Context = () => {
+  const contextapi = useContext(AppContext)
   const filteredUsers = contextapi.sankha.filter((index) => index.age > 18)
 
   return (
@@ -18,4 +18,4 @@ const context = () => {
   )
 }
 
-export default context
+export default Context
